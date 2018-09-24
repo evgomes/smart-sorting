@@ -1,0 +1,9 @@
+language: csharp
+mono: none
+dotnet: 2.0.0
+script:
+  - dotnet restore ./SmartSorting
+  - dotnet restore ./SmartSorting.Tests
+  - dotnet build ./SmartSorting/
+  - dotnet build ./SmartSorting.Tests/
+  - dotnet test ./SmartSorting.Tests/
