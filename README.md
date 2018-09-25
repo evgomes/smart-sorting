@@ -1,5 +1,7 @@
 # Smart Sorting API
 
+[![Build Status](https://travis-ci.org/evgomes/smart-sorting.svg?branch=master)](https://travis-ci.org/evgomes/smart-sorting)
+
 Sort algorithms library to use with .NET Standard. All algorithms work over arrays and enumerations of items that implement IComparable<T> interface.
 
 The following algorithms are implemented:
