@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/evgomes/smart-sorting.svg?branch=master)](https://travis-ci.org/evgomes/smart-sorting)
 
-Sort algorithms library to use with .NET Standard. All algorithms work over arrays and enumerations of items that implement IComparable<T> interface.
+Sorting algorithms library to use with .NET Standard. All algorithms work over arrays and enumerations of items that implement IComparable<T> interface.
 
 The following algorithms are implemented:
   - Bubble Sort
@@ -11,6 +11,20 @@ The following algorithms are implemented:
   - Merge Sort
   - Quick Sort
   - Selection Sort
+
+## How to install
+
+Via Nuget Package Manager Console, type:
+
+```
+Install-Package SmartSortingAPI -Version 1.0.0
+```
+
+Or, via command line tools, type the following:
+
+```
+dotnet add package SmartSortingAPI --version 1.0.0
+```
 
 ## How to use
 
